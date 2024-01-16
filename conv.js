@@ -13,3 +13,13 @@ console.log("Thank you for using convert.js by NiqueWrld");
             }
         }
     }
+
+class MyClass {
+    constructor() {
+        this.message = "Hello from MyClass!";
+    }
+
+    showMessage() {
+        console.log(this.message);
+    }
+}
