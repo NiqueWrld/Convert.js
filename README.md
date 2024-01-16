@@ -4,18 +4,9 @@ Welcome to Convert.js, a JavaScript library designed to simplify data conversion
 
 ## Features
 
-Convert.js is equipped to handle a wide range of conversions, including but not limited to:
+Convert.js is equipped to handle a wide range of data conversions, including but not limited to:
 
-1. **JSON Conversion:** Effortlessly convert between JSON and JavaScript objects.
-2. **String and Number Conversions:** Convert strings to numbers and vice versa.
-3. **Date Conversions:** Easily format dates or parse strings into date objects.
-4. **Array Manipulation:** Convert arrays to strings and vice versa.
-5. **Boolean and Numeric Representations:** Convert between booleans and numbers.
-6. **Binary and Hexadecimal Conversions:** Handle binary, decimal, and hexadecimal representations.
-7. **Character Encoding:** Effortlessly convert between different character encodings.
-8. **Base64 Encoding/Decoding:** Encode binary data to base64 and decode base64 to binary.
-9. **CSV and XML Conversions:** Transform data between CSV, JSON, and XML formats.
-10. **Markdown to HTML:** Convert Markdown syntax to HTML effortlessly.
+1. **JSON to Object Conversion:** Converting JSON (JavaScript Object Notation) data to a JavaScript object.
 
 ## Getting Started
 
