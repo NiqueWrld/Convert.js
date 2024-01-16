@@ -25,15 +25,35 @@ To start using Convert.js in your web project, follow these simple steps:
 
    ```javascript
    // Example initialization
-   const converter = new Convert.js();
+   const jsonConverter = new jsonToObject();
    ```
 
 3. **Perform Conversions:**
    Use the library's functions to perform the desired conversions.
 
    ```javascript
-   // Example: JSON to Object Conversion
-   const jsonObject = converter.jsonToObject(jsonString);
+   // Example JSON string
+   const jsonString = '{"name": "John", "age": 30, "city": "New York"}';
+
+   // Convert JSON string to JavaScript object
+   const jsonObject = jsonConverter.convertToObject(jsonString);
+   ```
+   
+ 4. **Check Success:**
+    Check if the conversion was successful
+
+    ```javascript
+    if (jsonObject !== null) {
+        console.log("JSON converted to object:", jsonObject);
+
+        // Now you can access properties of the object
+        console.log("Name:", jsonObject.name);
+        console.log("Age:", jsonObject.age);
+        console.log("City:", jsonObject.city);
+    } 
+    else {
+        console.log("JSON parsing failed. Check the error message for details.");
+    }
    ```
 
    Explore the library documentation for detailed usage instructions and available conversion functions.
