@@ -39,7 +39,7 @@ To start using Convert.js in your web project, follow these simple steps:
    const jsonObject = jsonConverter.convertToObject(jsonString);
    ```
    
- 4. **Check Success:**
+4. **Check Success:**
     Check if the conversion was successful
 
     ```javascript
